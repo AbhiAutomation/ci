@@ -5,7 +5,6 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.beust.jcommander.Parameter;
 
 /**
  * Unit test for simple App.

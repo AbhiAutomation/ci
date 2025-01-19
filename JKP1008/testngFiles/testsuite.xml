@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite_with_multiple_testng">
 	<suite-files>
-		 <suite-file path="testngFiles/testng_tests.xml"/>
-        <suite-file path="testngFiles/testng_classes.xml"/>
-		 <suite-file path="testngFiles/testng_methods.xml"/> 
+	
+        <suite-file path="testngFiles/TestClass_4.xml"/> 
+        
 	</suite-files>
 
 </suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_1" >
+
+
+	<test thread-count="7" name="Test1" parallel="methods">
+	<!-- All @test mehotds in all the classes will run parallel 
+	We have 7 mrthods thas why need to put thread count = 7 
+	if we need to run all 7 methods in parallel  -->
+		<classes>
+			<class name="com.soni.JKP1008.TestClass_1" />
+		</classes>
+	</test>
+
+<!--	<test thread-count="5" name="Test1" parallel="methods">
+		<classes>
+			<class name="com.soni.JKP1008.TestClass_1" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Test2" parallel="methods">
+		<classes>
+			<class name="com.soni.JKP1008.TestClass_2" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Test3">
+		<classes>
+			<class name="com.soni.JKP1008.TestClass_3" />
+		</classes>
+	</test> 
+	Test -->
+</suite> <!--
+Suite -->
+
