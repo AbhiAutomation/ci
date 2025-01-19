@@ -4,6 +4,7 @@
 	<suite-files>
 		 <suite-file path="testngFiles/testng_tests.xml"/>
         <suite-file path="testngFiles/testng_classes.xml"/>
+		 <suite-file path="testngFiles/testng_methods.xml"/> 
 	</suite-files>
 
 </suite>
