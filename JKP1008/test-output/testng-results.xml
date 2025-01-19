@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-19T20:58:59 IST" name="Suite_1" finished-at="2025-01-19T20:59:09 IST" duration-ms="10052">
+    <groups>
+    </groups>
+    <test started-at="2025-01-19T20:58:59 IST" name="Test3" finished-at="2025-01-19T20:59:09 IST" duration-ms="10052">
+      <class name="com.soni.JKP1008.TestClass_3">
+        <test-method signature="test3()[pri:0, instance:com.soni.JKP1008.TestClass_3@384ad17b]" started-at="2025-01-19T20:58:59 IST" name="test3" finished-at="2025-01-19T20:59:09 IST" duration-ms="10021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test2()[pri:0, instance:com.soni.JKP1008.TestClass_3@384ad17b]" started-at="2025-01-19T20:58:59 IST" name="test2" finished-at="2025-01-19T20:59:09 IST" duration-ms="10021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:0, instance:com.soni.JKP1008.TestClass_3@384ad17b]" started-at="2025-01-19T20:58:59 IST" name="test1" finished-at="2025-01-19T20:59:09 IST" duration-ms="10021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.soni.JKP1008.TestClass_3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite_1 -->
+  <suite started-at="2025-01-19T20:59:09 IST" name="Suite_1 (0)" finished-at="2025-01-19T20:59:29 IST" duration-ms="20032">
+    <groups>
+    </groups>
+    <test started-at="2025-01-19T20:59:09 IST" name="Test1" finished-at="2025-01-19T20:59:29 IST" duration-ms="20032">
+      <class name="com.soni.JKP1008.TestClass_2">
+        <test-method signature="test1()[pri:0, instance:com.soni.JKP1008.TestClass_2@77847718]" started-at="2025-01-19T20:59:09 IST" name="test1" finished-at="2025-01-19T20:59:19 IST" duration-ms="10013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.soni.JKP1008.TestClass_2@77847718]" started-at="2025-01-19T20:59:19 IST" name="test2" finished-at="2025-01-19T20:59:29 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.soni.JKP1008.TestClass_2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite_1 (0) -->
+  <suite started-at="2025-01-19T20:59:29 IST" name="Suite_with_multiple_testng" finished-at="2025-01-19T20:59:29 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite_with_multiple_testng -->
+</testng-results>

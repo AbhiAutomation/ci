@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_1" thread-count="3" parallel="tests">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="testDataLocation" value="C:\\TestData.xls"></parameter>
+	<!-- Passing multiple parameters -->
+	<parameter name="username" value="testuser" />
+	<parameter name="password" value="password123" />
+	<parameter name="url" value="http://example.com" />
+	<parameter name="browser" value="chrome" />
+	<test thread-count="2" name="Test1" parallel="methods">
+		<classes>
+			<class name="com.soni.JKP1008.TestClass_4" />
+		</classes>
+	</test>
+
+
+</suite> 
