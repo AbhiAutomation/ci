@@ -9,19 +9,27 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite_1</th></tr>
-<tr><td><a href="#t0">Test3</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,052</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test3</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,056</td><td></td><td></td></tr>
 <tr><th colspan="8">Suite_1 (0)</th></tr>
-<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,032</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,025</td><td></td><td></td></tr>
 <tr><th colspan="8">Suite_with_multiple_testng</th></tr>
-<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">30,084</th><th colspan="2"></th></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">20,081</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite_1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.soni.JKP1008.TestClass_3</td><td><a href="#m0">test1</a></td><td rowspan="1">1737300539675</td><td rowspan="1">10021</td></tr><tr class="passedeven"><td><a href="#m1">test2</a></td><td rowspan="1">1737300539675</td><td rowspan="1">10021</td></tr><tr class="passedeven"><td><a href="#m2">test3</a></td><td rowspan="1">1737300539675</td><td rowspan="1">10021</td></tr></tbody>
-<tbody><tr><th colspan="4">Suite_1 (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.soni.JKP1008.TestClass_2</td><td><a href="#m3">test1</a></td><td rowspan="1">1737300549808</td><td rowspan="1">10013</td></tr><tr class="passedeven"><td><a href="#m4">test2</a></td><td rowspan="1">1737300559823</td><td rowspan="1">10011</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite_1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test3 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.soni.JKP1008.TestClass_3</td><td><a href="#m0">test1</a></td><td rowspan="1">1737306675284</td><td rowspan="1">18</td></tr><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.soni.JKP1008.TestClass_3</td><td><a href="#m1">test2</a></td><td rowspan="1">1737306675285</td><td rowspan="1">10027</td></tr><tr class="passedeven"><td><a href="#m2">test3</a></td><td rowspan="1">1737306675285</td><td rowspan="1">10027</td></tr></tbody>
+<tbody><tr><th colspan="4">Suite_1 (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.soni.JKP1008.TestClass_2</td><td><a href="#m3">test1</a></td><td rowspan="1">1737306685394</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.soni.JKP1008.TestClass_2</td><td><a href="#m4">test2</a></td><td rowspan="1">1737306685398</td><td rowspan="1">10015</td></tr></tbody>
 <tbody><tr><th colspan="4">Suite_with_multiple_testng</th></tr></tbody></table>
-<h2>Test3</h2><h3 id="m0">com.soni.JKP1008.TestClass_3#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m0">com.soni.JKP1008.TestClass_3#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at com.soni.JKP1008.TestClass_3.test1(TestClass_3.java:14)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.soni.JKP1008.TestClass_3#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.soni.JKP1008.TestClass_3#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test1</h2><h3 id="m3">com.soni.JKP1008.TestClass_2#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m3">com.soni.JKP1008.TestClass_2#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at com.soni.JKP1008.TestClass_2.test1(TestClass_2.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">com.soni.JKP1008.TestClass_2#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

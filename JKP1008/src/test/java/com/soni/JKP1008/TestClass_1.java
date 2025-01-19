@@ -17,7 +17,7 @@ public class TestClass_1 {
 		System.out.println("TestClass_1:First Test 1:" +Thread.currentThread().getId());
 		Assert.assertEquals(true, true);
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

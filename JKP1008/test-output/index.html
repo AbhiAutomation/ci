@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">3 suites</span>
+      <span class="top-banner-font-1">3 suites, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite_1" class="navigator-link">
-              <span class="suite-name border-passed">Suite_1</span>
+              <span class="suite-name border-failed">Suite_1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_1" class="hide-methods failed suite-Suite_1"> (hide)</a> <!-- hide-methods failed suite-Suite_1 -->
+                      <a href="#" panel-name="suite-Suite_1" class="show-methods failed suite-Suite_1"> (show)</a> <!-- show-methods failed suite-Suite_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_1" title="com.soni.JKP1008.TestClass_3" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Suite_1" class="show-methods passed suite-Suite_1"> (show)</a> <!-- show-methods passed suite-Suite_1 -->
                     </span>
                     <div class="method-list-content passed suite-Suite_1">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_1" title="com.soni.JKP1008.TestClass_3" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_1" title="com.soni.JKP1008.TestClass_3" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
@@ -129,7 +138,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite_1__0_" class="navigator-link">
-              <span class="suite-name border-passed">Suite_1 (0)</span>
+              <span class="suite-name border-failed">Suite_1 (0)</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -182,7 +191,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_1__0_" class="hide-methods failed suite-Suite_1__0_"> (hide)</a> <!-- hide-methods failed suite-Suite_1__0_ -->
+                      <a href="#" panel-name="suite-Suite_1__0_" class="show-methods failed suite-Suite_1__0_"> (show)</a> <!-- show-methods failed suite-Suite_1__0_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_1__0_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_1__0_" title="com.soni.JKP1008.TestClass_2" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_1__0_ -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -191,11 +214,6 @@
                       <a href="#" panel-name="suite-Suite_1__0_" class="show-methods passed suite-Suite_1__0_"> (show)</a> <!-- show-methods passed suite-Suite_1__0_ -->
                     </span>
                     <div class="method-list-content passed suite-Suite_1__0_">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_1__0_" title="com.soni.JKP1008.TestClass_2" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_1__0_" title="com.soni.JKP1008.TestClass_2" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
@@ -213,9 +231,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite_1" class="panel Suite_1">
-          <div class="suite-Suite_1-class-passed">
+          <div class="suite-Suite_1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.soni.JKP1008.TestClass_3</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -224,8 +242,23 @@
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.soni.JKP1008.TestClass_3.test1(TestClass_3.java:14)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1-class-failed -->
+          <div class="suite-Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.soni.JKP1008.TestClass_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="test2">
@@ -244,9 +277,9 @@
           </div> <!-- suite-Suite_1-class-passed -->
         </div> <!-- panel Suite_1 -->
         <div panel-name="suite-Suite_1__0_" class="panel Suite_1__0_">
-          <div class="suite-Suite_1__0_-class-passed">
+          <div class="suite-Suite_1__0_-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.soni.JKP1008.TestClass_2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -255,8 +288,21 @@
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.soni.JKP1008.TestClass_2.test1(TestClass_2.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_1__0_-class-failed -->
+          <div class="suite-Suite_1__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.soni.JKP1008.TestClass_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="test2">
@@ -392,17 +438,17 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test3')
+data.setCell(0, 1, 'test2')
 data.setCell(0, 2, 'com.soni.JKP1008.TestClass_3')
-data.setCell(0, 3, 10021);
+data.setCell(0, 3, 10027);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2')
+data.setCell(1, 1, 'test3')
 data.setCell(1, 2, 'com.soni.JKP1008.TestClass_3')
-data.setCell(1, 3, 10021);
+data.setCell(1, 3, 10027);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test1')
 data.setCell(2, 2, 'com.soni.JKP1008.TestClass_3')
-data.setCell(2, 3, 10021);
+data.setCell(2, 3, 18);
 window.suiteTableData['Suite_1']= { tableData: data, tableDiv: 'times-div-Suite_1'}
 return data;
 }
@@ -429,18 +475,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1')
+data.setCell(0, 1, 'test2')
 data.setCell(0, 2, 'com.soni.JKP1008.TestClass_2')
-data.setCell(0, 3, 10013);
+data.setCell(0, 3, 10015);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2')
+data.setCell(1, 1, 'test1')
 data.setCell(1, 2, 'com.soni.JKP1008.TestClass_2')
-data.setCell(1, 3, 10011);
+data.setCell(1, 3, 1);
 window.suiteTableData['Suite_1__0_']= { tableData: data, tableDiv: 'times-div-Suite_1__0_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite_1__0_">
               </div> <!-- times-div-Suite_1__0_ -->
             </div> <!-- times-div -->
@@ -521,16 +567,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.soni.JKP1008.TestClass_3</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test3</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">test3</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -542,12 +590,14 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.soni.JKP1008.TestClass_2</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">10015 ms</span>
+                <span class="method-start">4 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
