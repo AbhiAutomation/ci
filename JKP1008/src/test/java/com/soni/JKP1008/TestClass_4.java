@@ -17,6 +17,8 @@ public class TestClass_4 {
 	public void test1(@Optional("firefox") String strBrowser, String strTestDatLocation, String username,
 			String password, String url) {
 		String strBrowserFromCMD = System.getProperty("browser");
+		if(strBrowserFromCMD==null)
+			System.out.println("Browser from CMD is null");
 		if(strBrowserFromCMD!=null)
 			strBrowser=strBrowserFromCMD;
 		System.out.println("Browser value from command line " + strBrowserFromCMD);
